@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin:auto;
+}
+
+.container{
+    width:96vw;
+    background-color: yellow;
+    display:flex;
+    flex-direction:column ;
+}
+
+.content{
+    width:400px;
+    height:60px;
+    background-color: brown;
+    border-style: solid;
+}
+
+
+@media only screen and (min-width: 1280px){
+
+    .container{
+        width:60vw;
+        flex-direction:row ;
+    }
+     
+}
