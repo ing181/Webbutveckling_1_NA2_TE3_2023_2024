@@ -1,0 +1,32 @@
+body{
+    color:white;
+    margin:auto;
+}
+
+.container{
+  width:600px;
+height:5000px;
+  background-color:blue;
+  position: relative;
+                                                                      
+    
+  display:flex; 
+ flex-direction: column;
+  /* i huvudriktningen */
+  justify-content:space-between;
+  /* i 90 grader mot huvudrigtningen */
+ align-items: center;
+
+ 
+}
+
+
+
+.kvadrat{
+   width:50px;
+   height:50px;
+   background-color: black;
+   /* i förhållande till sin parant */
+   position: relative;
+
+}
