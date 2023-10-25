@@ -1,0 +1,69 @@
+/* sådant som ingår */
+body {
+  /* margin
+  https://www.w3schools.com/css/css_margin.asp
+  */
+  margin: auto;
+  width: 50%;
+  /* padding
+  https://www.w3schools.com/css/css_padding.asp
+  */
+  padding: 10px;
+}
+
+/* Egendifinierade klasser */
+.container {
+  background-color: black;
+  border-width: 3px;
+  /* solid, heldragen linje */
+  border-style: solid;
+  /*
+  HTML color
+  https://www.w3schools.com/html/html_colors.asp
+  */
+  border-color: #ffff00;
+  /*height: 30px;*/
+  display: flex;
+  flex-direction: row;
+  /* I huvudriktningen (main axis) */
+  justify-content: flex-start;
+  /* motsvarigheten för 90 gr axeln */
+  /* align-items */
+}
+
+.right {
+  /*  width: 200px;  */
+  /*  height: 200px;  */
+  background-color: green;
+  border-width: 3px;
+  border-style: solid;
+  /* Den här fonten finns på din egen server
+     definieras i din egen css-fil "font.css" */
+  font-family: SansitaSwashed-VariableFont_wght;
+  font-style: italic;
+  font-weight: bolder;
+  font-variant: small-caps;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.left {
+  /*  width: 200px; */
+  /*  height: 200px; */
+  background-color: white;
+  border-width: 3px;
+  border-style: solid;
+  flex-shrink: 4;
+  /*  flex-basis: 25%; */
+  /* fonten laddas ner från Google till
+     användaren. Finns inte på din server */
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* ett span element har ingen
+höjd eller bredd. Följer bara med i flödet
+*/
+.fontcolor {
+  /* textfärgen */
+  color: red;
+}

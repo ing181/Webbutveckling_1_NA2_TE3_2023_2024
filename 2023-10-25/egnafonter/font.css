@@ -1,0 +1,9 @@
+@font-face {
+  /* egenskapen "font-family"
+     värdet kan du välja skälv, men använd 
+	 ett beskrivande namn. Namnet på fonten är ett bra val */
+  font-family: SansitaSwashed-VariableFont_wght;
+  /* sökvägen till font-filen. relativ sökväg från den här filen till fonten
+     "Upp ett steg, ner i mappen font och där ligger SansitaSwashed-VariableFont_wght.ttf" */
+  src: url("../font/SansitaSwashed-VariableFont_wght.ttf");
+}

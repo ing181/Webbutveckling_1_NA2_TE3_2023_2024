@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-family: serif;
+  font-size: 14px;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+nav {}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: green;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: red;
+}
+
+section {
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: lightblue;
+}
+
+article {
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: yellow;
+}
+
+aside {
+  padding-top: 10px;
+  padding-right: 10px;
+  flex-shrink: 1;
+  background-color: pink;
+  border-radius: 6px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.betonad {
+  font-weight: bold;
+}
+
+.ingress {
+  font-size: 16px;
+}
+
+.kursiv {
+  font-style: italic;
+}
+
+/* Bara det som ändras, det som
+skiljer sig från tidigare regler
+behöver vara med */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}

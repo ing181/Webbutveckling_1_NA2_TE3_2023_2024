@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"> 
+ <title>Test</title>   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*
+    pseudo-classes a=link (ancor)
+    a:hover 
+
+    pseudo-element
+    p::after
+*/
+
+p::before{
+    content: " Här börjar p -> ";
+    color: green;
+    font-weight: bolder;
+} 
+
+
+p::after{
+    content: " <- Här slutar p";
+    color: green;
+    font-weight: bolder;
+}
+
+
+
+a{
+	color:blue;
+	text-decoration:none;
+}
+/* pseudo-class */
+a:hover{
+	color:red;
+	
+}
+
+</style>
+</head>
+<body>
+    <p>paragraf</p>
+	<!-- target="_blank" öppnar i en ny flik -->
+	<a href="https://google.se" target="_blank">Google</a>
+</body>
+</html>

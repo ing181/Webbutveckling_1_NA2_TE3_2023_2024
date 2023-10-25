@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"> 
+ <title>Test</title>   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*
+    pseudo-classes a=link (ancor)
+    a:hover 
+
+    pseudo-element
+    p::after
+*/
+p::after{
+    content: " <- Här slutar p";
+    color: green;
+    font-weight: bolder;
+}
+
+p::before{
+    content: " Här börjar p -> ";
+    color: green;
+    font-weight: bolder;
+}
+
+</style>
+</head>
+<body>
+    <p>paragraf</p>
+</body>
+</html>
