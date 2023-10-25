@@ -53,7 +53,7 @@ body {
   background-color: white;
   border-width: 3px;
   border-style: solid;
-  flex-shrink: 4;
+  flex-shrink:4;
   /*  flex-basis: 25%; */
   /* fonten laddas ner från Google till
      användaren. Finns inte på din server */
@@ -67,3 +67,29 @@ höjd eller bredd. Följer bara med i flödet
   /* textfärgen */
   color: red;
 }
+
+/*
+Semantic Web
+Namnet har en betydelse
+Anger att det som finns
+mellan <xxx> och </xxx>
+ska ha en viss typ av innehåll
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+
+
+
+*/
