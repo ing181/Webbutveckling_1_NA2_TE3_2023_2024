@@ -1,0 +1,13 @@
+.gul{
+    width:300px;
+    height:200px;
+    background-color:yellow;
+}
+
+#green{
+    width:300px;
+    height:200px;
+    background-color:green;
+    color:red;
+    font-size:large;
+}
