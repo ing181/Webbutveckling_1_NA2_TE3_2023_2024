@@ -1,0 +1,18 @@
+table{
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    border-style: solid; 
+    padding:10px;
+
+}
+
+tr:not(:first-child):hover{
+/*
+tr:first-child:hover{
+*/
+
+    background-color: blueviolet;
+}

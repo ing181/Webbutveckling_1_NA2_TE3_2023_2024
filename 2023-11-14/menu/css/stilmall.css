@@ -1,0 +1,32 @@
+ul{
+    position:absolute;
+    width:fit-content;
+}
+
+li{
+        list-style-type: none;
+        /*
+        margin:0;
+        padding:0;
+        */
+        margin:5px;
+        padding:3px;
+
+
+
+
+}
+
+.under{
+    display:none;
+    white-space: nowrap;
+}
+ul:hover .under{
+    background-color:beige;
+
+    display:block;
+}
+a{
+
+        text-decoration: none;
+}
