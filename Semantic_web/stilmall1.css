@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+header {}
+
+nav {}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: green;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: red;
+}
+
+section {
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: blue;
+}
+
+article {
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: yellow;
+}
+
+aside {
+  padding-top: 10px;
+  padding-right: 10px;
+  flex-shrink: 3;
+  background-color: pink;
+}
+
+footer {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    /* Bara det som ändras, det som
+    skiljer sig från tidigare regler
+    behöver vara med */
+    flex-direction: column;
+  }
