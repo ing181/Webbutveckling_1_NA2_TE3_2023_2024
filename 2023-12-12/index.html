@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stilmall.css">
+<!-- EXTERNT SCRIPT -->
+<script type="text/javascript" defer src="script/script.js"></script>
+<!-- INTERN Javascript -->
+<script>
+    function musin(id)
+    {
+            document.getElementById(id).innerHTML="Musen är över den gröna rektangeln";
+    }
+    function musut(id)
+    {
+        document.getElementById(id).innerHTML="Musen togs bort";
+
+    }
+</script>
+</head>
+<body>
+    <!-- händelse 
+     onmouseover
+     onmouseout
+     onclick
+     ondubleclick
+     med flera -->
+<div id="green" onmouseover="musin(this.id)"; onmouseout="musut(this.id)"></div>
+<div class="gul" id="gul"></div>
+<button id="knapp">KNAPP</button>
+</body>
+</html>
