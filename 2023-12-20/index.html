@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stilmall.css">
+<!-- EXTERNT SCRIPT -->
+<script type="text/javascript" defer src="script/script.js"></script>
+<!-- INTERN Javascript -->
+<script>
+function addera()
+{
+    // Sträng konkatenera
+   //  let summa = document.getElementById("nr1").value + document.getElementById("nr2").value;
+     let summa = Number(document.getElementById("nr1").value) + Number(document.getElementById("nr2").value);
+     document.getElementById("utvarde").innerHTML=summa;
+}
+
+
+</script>
+</head>
+<body>
+
+    <input type="button" value="KNAPP" onclick="addera()">
+    <input type="text" id="nr1">
+    <input type="text" id="nr2">
+    <div id="utvarde"></div>
+
+</body>
+</html>
