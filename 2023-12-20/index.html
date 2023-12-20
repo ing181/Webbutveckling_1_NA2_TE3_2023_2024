@@ -8,23 +8,18 @@
 <script type="text/javascript" defer src="script/script.js"></script>
 <!-- INTERN Javascript -->
 <script>
-function addera()
-{
-    // Sträng konkatenera
-   //  let summa = document.getElementById("nr1").value + document.getElementById("nr2").value;
-     let summa = Number(document.getElementById("nr1").value) + Number(document.getElementById("nr2").value);
-     document.getElementById("utvarde").innerHTML=summa;
-}
 
 
 </script>
 </head>
 <body>
+    <!-- Olika input typer -->
 
-    <input type="button" value="KNAPP" onclick="addera()">
-    <input type="text" id="nr1">
-    <input type="text" id="nr2">
-    <div id="utvarde"></div>
+    <input type="radio" name="val1" id="cpp" value="C++">
+    <label for="cpp">CPP</label><br>
+    <input type="radio" name="val1" id="PHP2" value="PHP2">
+    <label for="PHP">PHP</label><br>
+    <input type="file" id="file">
 
 </body>
 </html>
